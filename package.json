@@ -8,7 +8,8 @@
     "server": "node aboutNet/server.js",
     "server2": "node aboutHttp/server.js",
     "server:static": "node staticServer/index.js",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "npx nodemon -x ts-node src/aboutSequelize/index.ts"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
+    "express": "^4.21.1",
     "mysql2": "^3.11.4",
     "sequelize": "^6.37.5"
   }
