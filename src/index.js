@@ -14,3 +14,4 @@ console.log(this)
 console.log(this === module.exports)
 
 console.log(process.cwd())
+console.log('test111222')
